@@ -19,6 +19,19 @@
 ::-webkit-scrollbar {
   display: none;
 }
+.preloader {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.content-area {
+  display: none;
+}
 .top-nav,
 .footer,
 .content {
@@ -44,13 +57,14 @@
 }
 .nav-wrapper {
   text-align: center;
-  padding-top: 12px;
+  padding-top: 13px;
 }
 .header-title {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   margin: 0;
   line-height: 100% !important;
   white-space: nowrap !important;
+  font-weight: 500;
 }
 
 .sidenav-trigger i {
@@ -248,9 +262,29 @@ tr {
     padding-left: 0px;
   }
 }
+@media only screen and (max-width: 600px) {
+  .top-nav {
+    height: 58px !important;
+  }
+  .nav-wrapper {
+    padding-top: 10px;
+  }
+  #authentication {
+    margin-top: 63px !important;
+  }
+}
 
 @media only screen and (max-width: 370px) {
   .container {
     width: 98% !important;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  nav .sidenav-trigger {
+    margin: 0px;
+  }
+  .header-title {
+    padding-left: 30px !important;
   }
 }
