@@ -37,14 +37,14 @@
   -webkit-box-shadow: none;
   box-shadow: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.14);
-  height: 63px !important;
+  height: 62px !important;
   position: fixed !important;
   top: 0px !important;
   background-color: rgb(87 72 220) !important;
 }
 .nav-wrapper {
   text-align: center;
-  padding-top: 11px;
+  padding-top: 12px;
 }
 .header-title {
   font-size: 2.5rem;
