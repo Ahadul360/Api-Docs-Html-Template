@@ -1,6 +1,9 @@
-document.addEventListener("DOMContentLoaded", function () {
+window.onload = () => {
   document.getElementsByClassName("preloader")[0].style.display = "none";
   document.getElementsByClassName("content-area")[0].style.display = "block";
+};
+
+document.addEventListener("DOMContentLoaded", function () {
   //SideNav init
   const sideNav = document.querySelectorAll(".sidenav");
   M.Sidenav.init(sideNav, {});
